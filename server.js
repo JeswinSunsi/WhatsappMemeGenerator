@@ -23,16 +23,13 @@ app.post('/incoming', (req, res) => {
 	var userMessage = req.body.Body.split('#')
 
 	try {
-
-
-
 		const topCaption = userMessage[0].replace(/ /g, '_')
 		const bottomCaption = userMessage[1].replace(/ /g, '_')
 		const imageLink = userMessage[2]
 		var newUrl = `https://api.memegen.link/images/custom/${topCaption}/${bottomCaption}/_.png?background=${imageLink}`
 
 	} catch (err) {
-		var newUrl = 'Something went wrong. Do report the error to Lona 😔💔'
+		var newUrl = 'Something went wrong. Do report the error to the author 😔💔'
 	}
 
 
