@@ -7,5 +7,8 @@ Powered by the Twilio whatsapp api, server hosted on repl.it, uptimerobot pings 
 ## How to replicate it
 Make an account at Twilio.com, start a programmable messaging app for whatsapp, set the webhook to your server (with /incoming as the route. You can change this from ther server file)
 
+## The syntax to making memes
+Send a text message to the bot in the format `top caption#bottom caption#image link`. The `#` is the seperator. For example, https://img-9gag-fun.9cache.com/photo/aKDR333_460s.jpg can be replicated by sending `One does not simply#write a code without a single bug#https://imgflip.com/s/meme/One-Does-Not-Simply.jpg`
+
 ## The whys
-Just wanted to learn some twilio apps, also cuz it's fun.
+Just wanted to learn making some twilio apps, also cuz it's fun.
